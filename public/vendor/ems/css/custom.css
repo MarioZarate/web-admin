@@ -1,0 +1,141 @@
+#modal-image {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 999999;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.ic-img  {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.modal-content {
+    top: 100px !important;
+}
+
+.only-for-array    {
+  list-style-type: none;
+  padding: 0;
+}
+
+.group-items {
+  border: 0.5px solid #d1d1d1;
+  min-height: 80px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  /*overflow:auto;*/
+  overflow: hidden;
+}
+
+.float-elements a {
+  color: #ccc !important;
+  float: right;
+  padding-top: 2px;
+  padding-right: 15px;
+}
+
+.btn-custom {
+  color: #333;
+  background-color: #f8f8f8;
+  border-color: #ccc;
+}
+
+.btn-custom:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #ccc;
+}
+
+.btn-cstm-primary {
+  color: #fff !important;
+  background-color: #337ab7;
+  border-color: 1px solid transparent;
+}
+
+.btn.btn-cstm-primary:hover {
+  color: #fff !important;
+  background-color: #326c9e;
+  text-decoration: none;
+}
+
+.password-alert {
+  display: none;
+}
+
+.required {
+    color: #FD4848;
+}
+
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active {
+     background-color: #12afcb !important;
+}
+
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover:active,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:hover.active {
+    color: #fff;
+    background-color: #12afcb !important;
+    border-color: #12afcb;
+}
+
+.form-title {
+    color: #333 !important;
+    font-size: 15px !important;
+    text-transform: uppercase;
+}
+
+#table {
+    margin: 0px 0px 10px 0;
+}
+
+td.date-cell {
+  color: #0275d8;
+  font-weight: bold;
+}
+
+img.size {
+    max-height: 800px;
+    max-width: 1000px;
+    padding-bottom: 5px;
+}
+
+.tbl-action-col {
+    width: 200px;
+    text-align: center;
+}

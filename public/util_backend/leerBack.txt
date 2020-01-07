@@ -1,0 +1,2 @@
+El archivo sidebar.blade.php y panel.blade.php deben ser reemplazados en la siguiente ruta:
+ /vendor/emgs/admin-emgs-laravel/src/views
